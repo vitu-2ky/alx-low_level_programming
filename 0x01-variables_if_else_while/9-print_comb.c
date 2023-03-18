@@ -3,20 +3,22 @@
 #include <time.h>
 
 /**
- * main - prints all combination of single digits
+ * main - Entry point
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int n;
+	int d;
 
-	for (n = '0'; n < '9'; n++)
+	for (d = '0'; d  <= '9'; d++)
 	{
-	putchar(n);
-	if (n != '9')
+	putchar(d);
+	if (d != '9')
 	{
 	putchar(',');
 	putchar(' ');
+	}
 	}
 	putchar('\n');
 	return (0);
