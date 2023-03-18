@@ -19,12 +19,12 @@ int main(void)
 	{
 	if (p != d)
 	{
-	puchar(d);
+	putchar(d);
 	putchar(p);
-	if (d == '8' && p == '9'9)
+	if (d == '8' && p == '9')
 	continue;
 	putchar('.');
-	puchar(' ');
+	putchar(' ');
 	}
 	}
 	}
