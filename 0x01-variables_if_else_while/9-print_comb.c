@@ -1,16 +1,18 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
- * main - prints all combinations of single digits
+ * main - prints all combination of single digits
  * Return: Always 0 (Success)
  */
 int main(void)
 {
 	int n;
 
-	for (n = 48; n < 58; n++)
+	for (n = '0'; n < '9'; n++)
 	{
 		putchar(n);
-		if (n != 57)
+		if (n != '9')
 		{
 			putchar(',');
 			putchar(' ');
