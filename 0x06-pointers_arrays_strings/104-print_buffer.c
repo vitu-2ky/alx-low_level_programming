@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_buffer - prints buffer
+ * print_buffer - Print buffer of a string containing only printable characters
  * @b: buffer
  * @size: size
  * Return: void
