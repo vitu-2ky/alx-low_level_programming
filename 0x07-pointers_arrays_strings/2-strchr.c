@@ -2,7 +2,7 @@
 
 /**
  * _strchr - function that locates a character in a string
- * @s: the string
+ * @s: a string
  * @c: character to be found
  * Return: c a ponter to the first occurance and
  * Null if c is not found
