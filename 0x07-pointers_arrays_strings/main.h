@@ -1,8 +1,17 @@
+<<<<<<< HEAD
+#ifndef MAIN_H
+#define MAIN_H
+
+#include <stdio.h>
+#include <stdlib.h>
+int _putchar(char c);
+=======
 #ifndef MAIIN_H
 #define MAIN_H
 
 #include <stdio.h>
 int _putchar(char);
+>>>>>>> fb5bb99f02949051b8a55d9ba26c7eb01a90a700
 char *_memset(char *s, char b, unsigned int n);
 char *_memcpy(char *dest, char *src, unsigned int n);
 char *_strchr(char *s, char c);
