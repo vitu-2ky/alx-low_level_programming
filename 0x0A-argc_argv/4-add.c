@@ -2,10 +2,17 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
+<<<<<<< HEAD
 
 /**
  * check_num - check - string there are digit
  * @str: array str
+=======
+/**
+ * check_num - check - string there are digit
+ * @str: array str
+ *
+>>>>>>> 78724c94cd6e409f729aa1cb0d049acbc22ae309
  * Return: Always 0 (Success)
  */
 int check_num(char *str)
@@ -31,6 +38,10 @@ int check_num(char *str)
  * main - Print the name of the program
  * @argc: Count arguments
  * @argv: Arguments
+<<<<<<< HEAD
+=======
+ *
+>>>>>>> 78724c94cd6e409f729aa1cb0d049acbc22ae309
  * Return: Always 0 (Success)
  */
 
@@ -38,6 +49,10 @@ int main(int argc, char *argv[])
 
 {
 
+<<<<<<< HEAD
+=======
+  
+>>>>>>> 78724c94cd6e409f729aa1cb0d049acbc22ae309
 	int count;
 	int str_to_int;
 	int sum = 0;
@@ -52,7 +67,11 @@ int main(int argc, char *argv[])
 			sum += str_to_int;
 		}
 
+<<<<<<< HEAD
 
+=======
+	
+>>>>>>> 78724c94cd6e409f729aa1cb0d049acbc22ae309
 		else
 		{
 			printf("Error\n");
